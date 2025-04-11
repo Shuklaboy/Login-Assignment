@@ -1,0 +1,74 @@
+.auth-form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #4338ca;
+}
+
+.toggle-auth {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.toggle-auth a {
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+.toggle-auth a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin-top: 15px;
+    color: #c53030;
+    font-weight: bold;
+    text-align: center;
+}
+/* Add this at the bottom of your existing AuthForm.css file */
+
+.info-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e0f2fe;
+    border: 1px solid #90cdf4;
+    color: #1e40af;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.message.success {
+    color: #16a34a; /* Green for success messages */
+}
+
+.message.error {
+    color: #dc2626; /* Red for error messages */
+}

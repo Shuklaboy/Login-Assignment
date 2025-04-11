@@ -17,8 +17,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Ignore build outputs (React build folder)
-frontend/build/
 
 # Coverage reports
 coverage/
